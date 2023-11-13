@@ -1,4 +1,4 @@
-// first question
+//1 function that add two numbers
 
 function addNumbers(a,b){
     return a + b;
