@@ -6,9 +6,8 @@ function displayPattern(rows) {
         for (let j = 0; j < rows - i; j++) {
             row += "1 ";
         }
-        console.log(row.trim());
+        console.log(row);
     }
 }
 
-// Example: Display the pattern
 displayPattern(4);

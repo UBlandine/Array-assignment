@@ -4,15 +4,15 @@ function displayPattern(rows) {
     for (let i = 0; i < rows; i++) {
         let row = "";
         for (let j = 0; j < rows; j++) {
-            if (j >= i) {
+            if (j <rows - i) {
                 row += "1 ";
             } else {
                 row += "0 ";
             }
         }
-        console.log(row.trim());
+        console.log(row);
     }
 }
-displayPattern(4,4)
+displayPattern(4)
 
 
