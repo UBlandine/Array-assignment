@@ -9,7 +9,7 @@ function findMaxValue(arr) {
     return Math.max(...arr);
   }
   
-  // Example usage:
+   
   var numbers = [10, 5, 8, 20, 15];
   var max = findMaxValue(numbers);
   console.log(max); 
