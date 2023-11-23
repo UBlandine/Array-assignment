@@ -13,3 +13,8 @@ function sortAscending(array) {
 
 var sortedArray = sortAscending(someNumbers);
 console.log(sortedArray);
+
+//Modify the first array to make sure that it will also display the last 3 numbers and the first 3 numbers in front of the sorted array
+
+
+
